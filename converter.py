@@ -14,14 +14,17 @@ def converter():
     unit = input('Enter the required unit of measurement (gr,ct,oz): ')
     round_a = input('Rounding accuracy: ')
 
-    ratio = data[1] + " " + unit
-    if len(data) < 2 or len(unit) != 2 or ratio not in RATIO:
+    if len(data) < 2 or len(unit) != 2 or len(round_a) == 0:
         print('Invalid format!')
     else:
-        try:
-            print(f"Result:\t{round(float(data[0]) * RATIO[ratio], int(round_a))} {unit}")
-        except:
+        ratio = data[1] + " " + unit
+        if ratio not in RATIO:
             print('Invalid format!')
+        else:
+            try:
+                print(f"Result:\t{round(float(data[0]) * RATIO[ratio], int(round_a))} {unit}")
+            except:
+                print('Invalid format!')
 
 
 converter()
