@@ -17,7 +17,7 @@ def converter():
         print('Invalid format!')
     else:
         try:
-            print(f"Result:\t{(int(data[0]) * RATIO[ratio])} {unit}")
+            print(f"Result:\t{(float(data[0]) * RATIO[ratio])} {unit}")
         except:
             print('Invalid format!')
 
