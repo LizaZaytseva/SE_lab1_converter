@@ -7,4 +7,7 @@
 ```Enter the value and specify the unit of measurement (gr,ct,oz) e.g. 123 gr: 1 oz```\
 ```Enter the required unit of measurement (gr,ct,oz): ct```\
 ```Rounding accuracy: 3```\
-```Result: 141.748 ct```
+```Result: 141.748 ct```\
+Пример запуска в докер-контейнере:\
+![](img2.jpg) \
+![](img1.jpg) 
