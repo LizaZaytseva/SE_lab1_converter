@@ -8,7 +8,7 @@ RATIO = {
 }
 
 
-def converter():
+def main():
     print('Weight converter: grams <-> carats <-> ounce')
     data = input('Enter the value and specify the unit of measurement (gr,ct,oz) e.g. 123 gr: ').split()
     unit = input('Enter the required unit of measurement (gr,ct,oz): ')
@@ -27,4 +27,5 @@ def converter():
                 print('Invalid format!')
 
 
-converter()
+if __name__ == '__main__':
+    main()
