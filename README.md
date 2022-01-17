@@ -1,5 +1,5 @@
 # Лабораторная работа №1
-[![Python application](https://github.com/LizaZaytseva/SE_lab1_converter/actions/workflows/main.yml/badge.svg)](https://github.com/LizaZaytseva/SE_lab1_converter/actions/workflows/main.yml)
+[![Python application](https://github.com/LizaZaytseva/SE_lab1_converter/actions/workflows/main.yml/badge.svg)](https://github.com/LizaZaytseva/SE_lab1_converter/actions/workflows/main.yml)  
 В ходе данной лабораторной работы был реализован конвертор, позволяющий переводить
 значения в 3 единицы измерения: граммы, унции и караты.
 Также пользователь может регулировать точность округления значения.\
